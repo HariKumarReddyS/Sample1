@@ -1,0 +1,12 @@
+<Common> 
+		<objectAfterLaunch locator="xpath" value="//div[contains(text(),'IQVIA HCP Space')]"/>
+		<loginUserName1 locator="Name" value="username_email"/>
+		<loginUserName locator="Name" value="userhSXKHASVKJCBLJname_email"/>
+		<loginPassword locator="Name" value="password"/>
+		<loginButton locator="xpath" value="//button[text()='Sign In']"/>
+		<objectAfterLogin locator="xpath" value="//a[contains(@class,'user-menu')]"/>
+		<likeElement locator="xpath" value="//span[contains(@class,'js_like-news')]"/>
+		<unLikeElement locator="xpath" value="//span[contains(@class,'js_unlike-news')]"/>
+		<commentElement locator="xpath" value="//span[text()='Comment']"/>
+		<userMenuElem locator="xpath" value="//a[@class='dropdown-toggle user-menu']"/>
+	</Common>
